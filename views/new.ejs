@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Chat</title>
+    <style>
+        body {
+               margin-inline: auto;
+               box-sizing: border-box;
+               padding: 0;
+               margin: 0;
+               background: linear-gradient(90deg, #1a2345ee, #0E1024);
+               margin-left: 30px;
+              color: white;
+              font-family: cursive;
+        }
+
+        h3 {
+            font-size: 20px;
+            color: crimson;
+        }
+
+        input {
+            background-color: aquamarine;
+            font-weight: 700;
+            padding-block: 10px;
+            border-radius: 8px;
+            border: none;
+            outline: none;
+        }
+
+        input:hover {
+            background-color: transparent
+        }
+
+        textarea {
+            background-color: #0e102444;
+            border: none;
+            outline: none;
+            border-radius: 10px;
+            color: yellowgreen;
+        }
+
+        button {
+            padding-inline: 25px;
+            padding-block: 5px;
+            background-color: transparent;
+             margin-top: 5px;
+             margin-left: 30px;
+             border: none;
+             color: crimson;
+             font-weight: 700;
+             border-radius: 5px;
+             cursor: pointer;
+             font-weight: 700;
+        }
+        button:hover {
+            background-color: yellowgreen;
+            
+        }
+    </style>
+</head>
+<body>
+    <h3 class="title">Write new chat...</h3>
+    <form method="POST" action="/chats">
+        <input type="text" placeholder="Who are you?" name="from">
+        <br> <br>
+        <textarea name="msg" id="" cols="30" rows="15" placeholder="Write you message here..."></textarea>
+        <br> <br>
+        <input type="text" placeholder="add receiver" name="to">
+        <br> <br>
+        <button>Send</button>
+    </form>
+</body>
+</html>

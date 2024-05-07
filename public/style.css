@@ -1,0 +1,145 @@
+
+body {
+  margin-inline: auto;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  background: linear-gradient(90deg, #1a2345ee, #0E1024);
+  margin-left: 30px;
+  color: white;
+  font-family: cursive;
+  
+}
+
+
+.btn {
+    background-color: none;
+    outline: none;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    color: coral;
+    font-weight: 700;
+    font-size: 20px;
+    font-family:monospace;
+    cursor: pointer;
+    margin-left: 55px;
+    margin-bottom: 40px;
+}
+
+.btn:hover {
+    background-color: tomato;
+}
+
+.title {
+    color:teal;
+    font-size: 30px;
+    margin-left: 60px;
+    font-family: cursive;
+}
+
+.flow {
+    display: flex;
+    gap: 5px;
+    margin-left: 5px;
+    align-items: center;
+}
+
+.edit {
+    background-color: none;
+    outline: none;
+    border: none;
+    padding-inline: 8px;
+    padding-block: 5px;
+    border-radius: 2px;
+    color: rgb(43, 103, 131);
+    font-weight: 700;
+    font-family:monospace;
+    cursor: pointer;
+   
+}
+
+.edit:hover {
+    background-color: coral;
+    border: 1px solid white;
+}
+
+.delete{
+    background-color: rgba(255, 0, 72, 0.43);
+    outline: none;
+    border: none;
+    padding-inline: 8px;
+    padding-block: 5px;
+    border-radius: 2px;
+    color: rgb(43, 103, 131);
+    font-weight: 700;
+    font-family:monospace;
+    cursor: pointer;
+}
+
+.delete:hover {
+    background-color: rgba(255, 0, 0, 0.775);
+    border: 1px solid white;
+}
+
+.show{
+    
+        background-color: greenyellow;
+        outline: none;
+        border: none;
+        padding-inline: 8px;
+        padding-block: 5px;
+        border-radius: 2px;
+        color: rgb(43, 103, 131);
+        font-weight: 700;
+        font-family:monospace;
+        cursor: pointer;
+    }
+
+.show:hover {
+    border: 1px solid black;
+    padding-inline: 10px;
+}
+
+
+.msg {
+    /* background: linear-gradient(90deg, #82C55F, #5ABF7F); */
+    background: linear-gradient(90deg, #1a2345ee, #0E1024);
+    padding-inline: 50px;
+    padding-block: 35px;
+    display: inline-block;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    margin-left: 45px;
+}
+
+.chat {
+    display: inline;
+    background: linear-gradient(90deg, #1a2345ee, #0E1024);
+  
+}
+
+.from {
+    color: aquamarine;
+    font-size: 16px;
+}
+
+.message {
+    color: palevioletred;
+    font-size: 16px;
+}
+
+.receive {
+    color: green;
+    font-size: 16px;
+}
+
+.time {
+    color: chocolate;
+    font-size: 16px;
+}
+
+.date {
+    color: darkviolet;
+    font-size: 16px;
+}
